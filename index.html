@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/32fc947e41.js" crossorigin="anonymous"></script>
+    
+    
+    
+    <title>lumos.eo</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pic/logo.png" alt=""></a>
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" id="fatimes" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECT'S</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="fabars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>The Best Event Organizer For You</h1>
+            <p>Music & Audio Production
+                Stage,Sound System & Lighting
+                Livestream Session
+                Wedding <br 
+                >| Birthday Party and Prom | Office Gathering | Webinar
+            </p>
+                <a href="" class="herobtn">Visit Us to know more</a>
+        </div>    
+
+
+    </section>
+
+
+    <!-- Content -->
+
+    <section class="content">
+        <h1>What we have for you?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quia labore 
+            obcaecati. Inventore laudantium voluptates, in debitis quasi omnis magni cum placeat consequatur 
+            eius fugit sapiente velit architecto, maiores animi.</p>
+
+        <div class="row">
+            <div class="content-col">
+                <h3>Wedding Organizer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nulla, quibusdam ipsum architecto 
+                    exercitationem sunt sed quis recusandae, dolorum velit eius sapiente atque 
+                    perspiciatis, animi provident accusantium eum nisi vel?</p>
+            </div>
+
+            <div class="content-col">
+                <h3>Event Organizer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nulla, quibusdam ipsum architecto 
+                    exercitationem sunt sed quis recusandae, dolorum velit eius sapiente atque 
+                    perspiciatis, animi provident accusantium eum nisi vel?</p>
+            </div>
+
+            <div class="content-col">
+                <h3>Office Gathering</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nulla, quibusdam ipsum architecto 
+                    exercitationem sunt sed quis recusandae, dolorum velit eius sapiente atque 
+                    perspiciatis, animi provident accusantium eum nisi vel?</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- recent Event -->
+
+    <section class="recentEvent">
+        <h1>Our Recent Event</h1>
+
+        <div class="row">
+            <div class="rEvent-col">
+                <img src="pic/atma.png" alt="">
+            </div>
+
+            <div class="rEvent-col">
+                <img src="pic/lyodraMeG.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="ourTeam">
+        <h1>Our Team</h1>
+        <div class="row">
+
+            <div class="ourteam-col">
+                <img src="pic/team1.png" alt="">
+            </div>
+
+            <div class="ourteam-col">
+                <img src="pic/team2.png" alt="">
+            </div>
+
+            <div class="ourteam-col">
+                <img src="pic/team3.png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- contact -->
+    
+    
+    <section class="contact">
+        <div>
+            <h1>Reach Us If You Need Our Help To Create a Great Event</h1>
+            <a href="" class="herobtn">CONTACT US</a>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            provident vero optio <br> veniam magni a iusto exercitationem, odit ullam esse modi 
+            sapiente recusandae ipsa ex nemo officiis, temporibus nulla. Quis!
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+        <p> Made with by Kevin Oliver</p>
+        
+        <i class="fa fa-linkedin"></i>
+
+    </section>
+
+
+
+<!-- java script for toggle menu -->
+    
+    <script>
+        var navbar = document.getElementById("navbar");
+
+        function showMenu(){
+            navbar.style.right = "0";
+        }
+        function hideMenu(){
+            navbar.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
