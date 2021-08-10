@@ -339,3 +339,74 @@ h3 {
     cursor: pointer;
     padding: 18px 0;
 }
+
+
+
+
+/* contactpage */
+
+.container-contact {
+
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.form-group {
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 45%;
+    border: none;
+    border-bottom: solid 1px grey;
+    font-size: 18px;
+    outline: none;
+}
+
+form .submit {
+    border: none;
+    text-align: center;
+    background: black;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+
+
+}
+
+.picForm img {
+    position: absolute;
+    right: 0;
+    top: 7%;
+    width: 50%;
+
+}
+
+
+@media(max-width: 700px) {
+    .container-contact {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .picForm img {
+        display: none;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+}

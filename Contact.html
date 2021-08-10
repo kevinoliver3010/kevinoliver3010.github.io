@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/32fc947e41.js" crossorigin="anonymous"></script>
+    
+    
+    
+    <title>Contact Us</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="pic/logoHitam.png" alt=""></a>
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" id="fatimes" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECT'S</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="fabars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="container-contact">
+            <div class="conForm">
+                <h1>Contact US</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quod ipsam obcaecati accusamus quia et. Cum, distinctio. Vitae autem nisi dolores architecto re</p>
+
+                <div class="form-group">
+                    <form action="" id="form-group" method="POST">
+
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        <br>
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        <br>
+
+                            <textarea name="massage" class="form-control" placeholder="Massage" rows="10"></textarea>
+                        <br>
+
+                            <input type="submit" name="submit" class="form-control submit" value="Send Massage">
+
+                    </form>
+                
+                </div>
+            </div>
+                    <div class="picForm">  
+                        <img src="pic/bgcontactpage.jpeg" alt="">
+                    </div>  
+        </div>
+
+        
+
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+            provident vero optio <br> veniam magni a iusto exercitationem, odit ullam esse modi 
+            sapiente recusandae ipsa ex nemo officiis, temporibus nulla. Quis!
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+        <p> Made with by Kevin Oliver M Silaban</p>
+        
+        <i class="fa fa-linkedin"></i>
+
+    </section>
+
+
+
+<!-- java script for toggle menu -->
+    
+    <script>
+        var navbar = document.getElementById("navbar");
+
+        function showMenu(){
+            navbar.style.right = "0";
+        }
+        function hideMenu(){
+            navbar.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
